@@ -1,10 +1,10 @@
 # Detalles
 La prueba consiste en crear un mailing para que nuestros compradores frecuentes
-puedan recomendar nuestros tours a un amigo. A cambio el cliente que recomendo
+puedan recomendar comprar en Turismoi a un amigo. A cambio el cliente que recomendo
 la compra gana el 10% de la compra de su contacto relacionado.
 
 # Consideraciones
-* El comprador referido debe colocar en los comentatios de su compra (Paso: Datos del comprador) el correo electrónico de la persona que lo refirio.
+* El comprador referido debe colocar en los comentarios de su compra (Paso: Datos del comprador) el correo electrónico de la persona que lo refirió.
 * El descuento será de 10% sobre el total de la compra, no hay limite de monto.
 * El comprador referido no debe haber hecho compras previas en Turismoi.pe, es decir, debe ser un nuevo cliente.
 * Turismoi.pe se pondrá en contacto con el cliente para acordar el medio por el cual le pagará el 10% de la comisión lograda
@@ -17,6 +17,12 @@ la compra gana el 10% de la compra de su contacto relacionado.
 * Nuestras redes sociales. Fb: https://www.facebook.com/Turismoi.pe/, Twitter: http://www.twitter.com/turismoipe
 * Recursos gráficos en /sources
 
+# Ejemplos
+* http://turismoi.org/mailings/mailing-viajar-peru.html
+* http://turismoi.org/mailings/turismoipe-adonde-quieres-viajar.html
+* http://turismoi.org/mailings/pagoefectivo-ddl.html
+* http://turismoi.org/mailings/taller-de-difusion.html
+
 # A evaluar
 * Herramientas utilizadas en el desarrollo de la solución.
 * Correcto manejo de Git, recomendado microcommits.
@@ -28,3 +34,4 @@ la compra gana el 10% de la compra de su contacto relacionado.
 * Hacer un fork en GitHub de este repositorio. No enviar commits directamente: Usar pull request desde el fork (ver: https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 * Consultas o dudas sobre el avance deben ser enviadas a *willy@turismoi.com* o agregarme al repositorio clonado como *willywg* y consultarme por un issue
 * Plazo de entrega: (DEFINIR)
+
