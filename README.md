@@ -29,9 +29,10 @@ la compra gana el 10% de la compra de su contacto relacionado.
 * Se tomará en cuenta el uso de preprocesadores.
 * Diseño responsive.
 * Opcional version web (landing page) y version para envio por mailing.
+* Se tomará en cuenta el tiempo empleado para entregar la solución.
 
 # Importante
 * Hacer un fork en GitHub de este repositorio. No enviar commits directamente: Usar pull request desde el fork (ver: https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 * Consultas o dudas sobre el avance deben ser enviadas a *willy@turismoi.com* o agregarme al repositorio clonado como *willywg* y consultarme por un issue
-* Plazo de entrega: (DEFINIR)
+* Se recepcionarán los trabajos hasta el Miercoles 22. Se dará respuesta de los mismos el viernes 24
 
