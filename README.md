@@ -1,7 +1,7 @@
 # Detalles del mensaje a transmitir
 La prueba consiste en crear un mailing para que nuestros compradores frecuentes
 puedan recomendar comprar en Turismoi a un amigo. A cambio el cliente que recomendo
-la compra gana el 10% de la compra de su contacto relacionado.ç
+la compra gana el 10% de la compra de su contacto relacionado.
 
 Es decir, un diseño que comunique el beneficio de recomendarnos con un amigo.
 
