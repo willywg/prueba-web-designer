@@ -1,9 +1,11 @@
-# Detalles
+# Detalles del mensaje a transmitir
 La prueba consiste en crear un mailing para que nuestros compradores frecuentes
 puedan recomendar comprar en Turismoi a un amigo. A cambio el cliente que recomendo
 la compra gana el 10% de la compra de su contacto relacionado.
 
-# Consideraciones
+Es decir, un diseño que comunique el beneficio de recomendarnos con un amigo.
+
+# Consideraciones a comunicar en el correo o landing
 * El comprador referido debe colocar en los comentarios de su compra (Paso: Datos del comprador) el correo electrónico de la persona que lo refirió.
 * El descuento será de 10% sobre el total de la compra, no hay limite de monto.
 * El comprador referido no debe haber hecho compras previas en Turismoi.pe, es decir, debe ser un nuevo cliente.
@@ -24,15 +26,16 @@ la compra gana el 10% de la compra de su contacto relacionado.
 * http://turismoi.org/mailings/taller-de-difusion.html
 
 # A evaluar
+* Version para envio por mailing.
 * Herramientas utilizadas en el desarrollo de la solución.
 * Correcto manejo de Git, recomendado microcommits.
 * Se tomará en cuenta el uso de preprocesadores.
 * Diseño responsive.
-* Opcional version web (landing page) y version para envio por mailing.
+* Opcional version web (landing page).
 * Se tomará en cuenta el tiempo empleado para entregar la solución.
 
 # Importante
 * Hacer un fork en GitHub de este repositorio. No enviar commits directamente: Usar pull request desde el fork (ver: https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 * Consultas o dudas sobre el avance deben ser enviadas a *willy@turismoi.com* o agregarme al repositorio clonado como *willywg* y consultarme por un issue
-* Se recepcionarán los trabajos hasta el Miercoles 22. Se dará respuesta de los mismos el viernes 24
+* Se recepcionarán los trabajos hasta el Lunes 27.
 
