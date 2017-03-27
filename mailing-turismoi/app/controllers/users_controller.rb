@@ -29,7 +29,7 @@ class UsersController < ApplicationController
     respond_to do |format|
       if @user.save
         UserMailer.frequent_user(@user).deliver_now
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
+        format.html { redirect_to @user, notice: "El correo fue enviado a #{@user.email}" }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }

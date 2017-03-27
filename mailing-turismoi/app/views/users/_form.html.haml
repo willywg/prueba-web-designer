@@ -7,10 +7,6 @@
           %li= msg
 
   .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :email
-    = f.text_field :email
-  .actions
-    = f.submit 'Save'
+    = f.text_field :email, placeholder: 'mail@example.com'
+  .button
+    = f.submit 'Enviar', id: 'submit'
