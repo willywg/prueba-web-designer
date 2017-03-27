@@ -23,3 +23,59 @@ form {
     text-align: center;
   }
 }
+
+.mailing {
+  font-family: Helvetica, sans-serif !important;
+  background-color: #F4F4F4;
+  table {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 0;
+    td img {
+      margin: 0 auto;
+    }
+    .image-head, .image-input {
+      background-size: 100%;
+    }
+  }
+  .center-bold, .center {
+    text-align: center;
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .center-bold {
+    font-weight: 700;
+  }
+  .left {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .mailing {
+    .center, .center-bold, .left {
+      font-size: 16px;
+      padding: 20px;
+    }
+    table {
+      .image-input {
+        background-image: none;
+        text-align: center;
+      }
+    }
+    br {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .mailing {
+    .center, .center-bold, .left {
+      font-size: 16px;
+    }
+  }
+}

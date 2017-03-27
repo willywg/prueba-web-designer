@@ -1,12 +1,49 @@
 %p#notice= notice
 
-%p
-  %b Name:
-  = @user.name
-%p
-  %b Email:
-  = @user.email
-
-= link_to 'Edit', edit_user_path(@user)
-\|
-= link_to 'Back', users_path
+.mailing
+  %table{ :cellpadding => '0', :cellspacing => '0' }
+    %tr
+      %td
+        %img{ :border => "0", :src => "https://s19.postimg.org/bifs1qidf/turismoi_logo.png", :style => "display:block;"}/
+    %tr.image-head{ :height => '300', :background => 'https://s19.postimg.org/82nns6l4z/turismoi_header_image.png' }
+      %td
+    %tr{ :height => '120', :style => 'background-color: white;' }
+      %td.center-bold
+        Invita a tus amigos y familiares
+        %br
+        y gana el 10% de su compra
+    %tr.image-input{ :height => '272', :background => 'https://s19.postimg.org/3usvjfjpf/input_example.png' }
+      %td.left
+        Solo tienen que poner
+        %br
+        tu email en la casilla de
+        %br
+        comentario cuando
+        %br
+        realicen su compra
+    %tr{ :height => '100' }
+      %td.center{ :style => 'background-color: white' }
+        %center
+          Después nos pondremos en contacto contigo
+          %br
+          para pagarte la comisión lograda
+    %tr{ :height => '130' }
+      %td.center{ :style => 'background: #ED5C26; color: white;' }
+        %center
+          %b LA UNICA CONDICIÓN
+          %br
+          Que sea la primera vez que tu amigo/familiar
+          %br
+          compra en 
+          %b turismoi
+    %tr{ :height => '100' }
+      %td{ :style => 'font-size: 16px' }
+        %center
+          %b ¿Tienes alguna duda?
+          %br
+          Escríbenos a ventas@turismoi.pe
+    %tr{ :height => '200', :style => 'background-color: #F4F4F4' }
+      %td{ :style => 'font-size: 11px' }
+        %p Enviado por: Turismoi.pe S.A.C Atención al Cliente / Dirección: Av. Armendariz 234 - Oficina 202, Miraflores, Lima - Perú / Teléfono: 320-4315 / E-mail: informes@turismoi.pe
+        %p Aviso Legal: *El presente correo electrónico se envía conforme a lo dispuesto en la Ley N° 28494, modificada por Ley N° 29246 y el D.S. 031-05-MTC - Ley Antispam Peruana y su Reglamento. En caso ya no desee recibir esta clase de comunicaciones, por favor envíe un correo electrónico a informes@turismoi.pe con el asunto “Solicitud de baja”. Mediante esta solicitud usted será dado de baja del portal Turismoi.pe y de todos los servicios que tenga activos con nosotros. Su remoción de nuestra base de datos será tramitada en un máximo de 48 horas.
+        %p Copyright © 2016 Turismoi.pe. Todos los derechos reservados.

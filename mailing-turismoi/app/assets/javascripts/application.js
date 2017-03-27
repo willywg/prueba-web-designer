@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function() {
+  $('.image-head').css('height', $('.image-head').width()/2 )
+  $('.image-input').css('height', $('.image-input').width()/2.25 )
+});
+
+$( window ).resize(function() {
+  $('.image-head').css('height', $('.image-head').width()/2 )
+  $('.image-input').css('height', $('.image-input').width()/2.25 )
+});
