@@ -1,0 +1,180 @@
+$naranja: #ff5722;
+$oscuro: #37474f;
+$verde: #7ec440;
+$gris: #e6e6e6;
+$text-color: #4a545a;
+
+body{
+    margin: 0;
+}
+.container {
+    font-size: 20px;
+    font-family: Helvetica;
+    line-height: 1.5;
+    background-color: $gris;
+}
+
+.main{
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 100%;
+
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    padding: 35px 25px;
+}
+
+a {
+    color: $naranja;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.section {
+    padding: 30px 60px;
+    background-color: white;
+}
+
+.promocion {
+    background-color: white;
+    border-bottom: 10px solid $gris;
+    .banner-header {
+        color: white;
+        background-color: $naranja;
+        padding: 30px 40px;
+        text-align: center;
+        text-transform: uppercase;
+        h1 {
+            font-size: 30px;
+            margin: auto;
+        }
+        h2 {
+            font-size: 25px;
+            margin: 0;
+        }
+    }
+    .banner-imagen {
+        overflow: hidden;
+        position: relative;
+            height: 300px;
+    max-height: 235px;
+        img {
+            width: 100%;
+            position: absolute;
+            top: -100px;
+        }
+    }
+    .banner-contenido {
+        text-align: center;
+        p {}
+        a.button {
+            padding: 15px 0;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            background-color: $verde;
+            display: block;
+            border-radius: 10px;
+            width: 45%;
+            margin: 30px auto 10px;
+        }
+        b {
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .notas {
+            text-align: left;
+            padding: 30px 0;
+            ul {
+                padding-left: 16px;
+                font-size: 13px;
+                color: lighten($text-color, 15%);
+                line-height: 1.4;
+            }
+            h5 {
+                margin: 10px 0;
+                color: $naranja;
+            }
+        }
+    }
+}
+
+.recomendar {
+    background-color: white;
+    h3 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .box {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .lugar,
+        .buscados {
+            padding: 10px;
+        }
+        .lugar {
+            .imagen {
+                overflow: hidden;
+                max-height: 170px;
+                min-height: 150px;
+            }
+            .footer {
+                border: 1px solid #ddd;
+                padding: 10px 20px;
+                border-radius: 0 0 5px 5px;
+                font-size: 14px;
+                a {
+                    color: $text-color;
+                    font-weight: bold;
+                }
+                p {
+                    margin-top: 5px;
+                }
+                h4 {
+                    margin: 10px 0 0;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        ul {
+            margin: 0;
+            padding-left: 0;
+            list-style: none;
+            li a {
+                line-height: 2;
+                font-size: 15px;
+                color: lighten($naranja, 15%);
+            }
+        }
+    }
+}
+
+.final {
+    background-color: $oscuro;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 40px 80px 30px;
+    b {
+        font-size: 16px;
+    }
+    .redes {
+        margin: 20px auto;
+        color: $naranja;
+        font-size: 15px;
+    }
+}
+

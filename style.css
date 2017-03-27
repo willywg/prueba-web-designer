@@ -1,0 +1,138 @@
+body {
+  margin: 0; }
+
+.container {
+  font-size: 20px;
+  font-family: Helvetica;
+  line-height: 1.5;
+  background-color: #e6e6e6; }
+
+.main {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100%; }
+
+.header {
+  text-align: center;
+  background-color: white;
+  padding: 35px 25px; }
+
+a {
+  color: #ff5722;
+  font-weight: bold;
+  text-decoration: none; }
+
+.no-margin {
+  margin: 0; }
+
+.section {
+  padding: 30px 60px;
+  background-color: white; }
+
+.promocion {
+  background-color: white;
+  border-bottom: 10px solid #e6e6e6; }
+  .promocion .banner-header {
+    color: white;
+    background-color: #ff5722;
+    padding: 30px 40px;
+    text-align: center;
+    text-transform: uppercase; }
+    .promocion .banner-header h1 {
+      font-size: 30px;
+      margin: auto; }
+    .promocion .banner-header h2 {
+      font-size: 25px;
+      margin: 0; }
+  .promocion .banner-imagen {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    max-height: 235px; }
+    .promocion .banner-imagen img {
+      width: 100%;
+      position: absolute;
+      top: -100px; }
+  .promocion .banner-contenido {
+    text-align: center; }
+    .promocion .banner-contenido a.button {
+      padding: 15px 0;
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      background-color: #7ec440;
+      display: block;
+      border-radius: 10px;
+      width: 45%;
+      margin: 30px auto 10px; }
+    .promocion .banner-contenido b {
+      text-align: center;
+      padding: 10px 20px; }
+    .promocion .banner-contenido .notas {
+      text-align: left;
+      padding: 30px 0; }
+      .promocion .banner-contenido .notas ul {
+        padding-left: 16px;
+        font-size: 13px;
+        color: #6d7b84;
+        line-height: 1.4; }
+      .promocion .banner-contenido .notas h5 {
+        margin: 10px 0;
+        color: #ff5722; }
+
+.recomendar {
+  background-color: white; }
+  .recomendar h3 {
+    text-align: center;
+    margin-bottom: 40px; }
+  .recomendar .box {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top; }
+    .recomendar .box img {
+      width: 100%;
+      height: auto; }
+    .recomendar .box .lugar,
+    .recomendar .box .buscados {
+      padding: 10px; }
+    .recomendar .box .lugar .imagen {
+      overflow: hidden;
+      max-height: 170px;
+      min-height: 150px; }
+    .recomendar .box .lugar .footer {
+      border: 1px solid #ddd;
+      padding: 10px 20px;
+      border-radius: 0 0 5px 5px;
+      font-size: 14px; }
+      .recomendar .box .lugar .footer a {
+        color: #4a545a;
+        font-weight: bold; }
+      .recomendar .box .lugar .footer p {
+        margin-top: 5px; }
+      .recomendar .box .lugar .footer h4 {
+        margin: 10px 0 0;
+        font-weight: bold;
+        text-transform: uppercase; }
+    .recomendar .box ul {
+      margin: 0;
+      padding-left: 0;
+      list-style: none; }
+      .recomendar .box ul li a {
+        line-height: 2;
+        font-size: 15px;
+        color: #ff916f; }
+
+.final {
+  background-color: #37474f;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 40px 80px 30px; }
+  .final b {
+    font-size: 16px; }
+  .final .redes {
+    margin: 20px auto;
+    color: #ff5722;
+    font-size: 15px; }
+
+/*# sourceMappingURL=style.css.map */
